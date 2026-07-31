@@ -1,0 +1,113 @@
+/* General page setup */
+/* Align everything to the left side of the screen */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #333333;
+  margin: 0;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start; /* Pushes content container to the left */
+}
+
+/* Compact Card Box */
+.container {
+  background-color: #ffffff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 360px; /* Reduced width to make the box smaller */
+  width: 100%;
+  text-align: left; /* Aligns text inside the box to the left */
+}
+
+/* Headings & text */
+h1 {
+  color: #005a36; /* Clean theme accent */
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.5;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #005a36;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #004227;
+}
+
+/* Links */
+a {
+  color: #005a36;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Video Player responsiveness */
+video {
+  margin-top: 15px;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* Style for Topic heading under the video */
+.topic-title {
+    color:#005a36;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Video player box container*/
+.video-box {
+  width: 100%;
+  max-width: 260px;
+  max-height: 240px;
+  margin: 15px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  background-color: #000;
+}
+
+.video-box video {
+  width: 100%;
+  height: 100%;
+  max-height: 240px;
+  object-fit: contain;
+  display: block;
+}
